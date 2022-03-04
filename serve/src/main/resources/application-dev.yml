@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.61:3306/access_control_visitor?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&AllowPublicKeyRetrieval=True&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 2020@Better
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 5 #最小空闲数量
+      maximum-pool-size: 200 #最大线程数量
+      auto-commit: true #是否自动提交
+      idle-timeout: 60000 #空闲时间，单位毫秒, 1分钟
+      connection-timeout: 200000  #等待获取连接的最长时间，单位毫秒，20秒
+      max-lifetime: 180000 #连接最大存活时间，单位毫秒，30分钟
+      connection-test-query: select 1
+  redis:
+    #数据库索引
+    database: 2
+    host: 192.168.1.61
+    port: 6379
+    password:
+    timeout: 5000ms
+    cache:
+      redis:
+        cache-null-values: true
+  encrypt:
+    key: e2#5!01p#KItNQ12
+    debug: false
+actable:
+  table:
+    auto: add
+#分钟
+tokenTimeOut: 600

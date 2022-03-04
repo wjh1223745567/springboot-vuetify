@@ -1,0 +1,36 @@
+server:
+  port: 6565
+  undertow:
+    io-threads: 8
+    worker-threads: 128
+    buffer-size: 1024
+    max-parameters: 500000
+spring:
+  application:
+    name: mybatisplus-framework
+  profiles:
+    active: local
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 500MB
+mybatis-plus:
+  mapper-locations:
+    - classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
+  type-aliases-package: com.iotinall.framework.modules.admin.entity
+  check-config-location: true
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+#自动建表配置
+actable:
+  table:
+    auto: add
+  model:
+    pack: com.iotinall.framework.modules.admin.entity
+#登录超时时间（分钟）
+tokenTimeOut: 600

@@ -1,0 +1,95 @@
+2021-12-13 09:08:38.946 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 6040 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-13 09:08:38.951 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-13 09:08:39.907 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-13 09:08:39.912 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-13 09:08:40.006 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-12-13 09:08:40.558 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$d6117fa7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.574 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.582 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.763 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.765 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6f5e16cf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.766 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:40.770 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 09:08:41.516 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-13 09:08:41.552 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-13 09:08:41.553 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2539 ms
+2021-12-13 09:08:42.823 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-13 09:08:42.847 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-13 09:08:43.056 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-13 09:08:44.593 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-13 09:08:44.595 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-13 09:08:44.598 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-13 09:08:44.600 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-13 09:08:44.641 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a68b06ba-f366-41cb-a3c1-bbbd40dedf8e
+
+2021-12-13 09:08:44.744 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35af1558, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d15789f, org.springframework.security.web.header.HeaderWriterFilter@983050b, org.springframework.security.web.authentication.logout.LogoutFilter@4db568e1, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@935d3f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6684589a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e2578ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2361365c, org.springframework.security.web.session.SessionManagementFilter@1f547af8, org.springframework.security.web.access.ExceptionTranslationFilter@6ad3fbe4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@432eb882]
+2021-12-13 09:08:45.271 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-13 09:08:45.288 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-13 09:08:45.288 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-13 09:08:45.289 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-13 09:08:45.290 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-13 09:08:45.291 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-13 09:08:45.291 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-13 09:08:45.291 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@e4bb10b
+2021-12-13 09:08:45.322 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-13 09:08:45.323 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-13 09:08:45.342 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-13 09:08:45.352 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-13 09:08:45.365 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-13 09:08:45.453 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-13 09:08:45.455 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 7.125 seconds (JVM running for 7.673)
+2021-12-13 09:13:35.261 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 09:13:35.263 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-13 09:13:35.273 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-12-13 09:13:35.327 [XNIO-1 task-1] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：58T3
+2021-12-13 09:13:35.692 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-13 09:13:35.694 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-13 09:13:37.245 [XNIO-1 task-2] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：HR7R
+2021-12-13 09:13:38.199 [XNIO-1 task-3] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：DG2F
+2021-12-13 09:13:38.638 [XNIO-1 task-4] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：9CPR
+2021-12-13 09:13:38.834 [XNIO-1 task-5] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：LMH7
+2021-12-13 09:13:41.261 [XNIO-1 task-6] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：JEWX
+2021-12-13 09:14:07.888 [XNIO-1 task-7] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：Q2T4
+2021-12-13 09:16:42.259 [XNIO-1 task-8] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：8PDJ
+2021-12-13 09:18:50.451 [XNIO-1 task-9] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：5BXM
+2021-12-13 09:20:39.828 [XNIO-1 task-10] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：QSNS
+2021-12-13 09:20:48.196 [XNIO-1 task-11] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：LMKX
+2021-12-13 09:22:05.667 [XNIO-1 task-12] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：KEJC
+2021-12-13 09:22:31.936 [XNIO-1 task-13] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：BDYV
+2021-12-13 09:23:15.034 [XNIO-1 task-14] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：EGW5
+2021-12-13 09:24:31.116 [XNIO-1 task-15] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：A8YC
+2021-12-13 09:25:06.922 [XNIO-1 task-16] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：UJ7K
+2021-12-13 09:25:15.970 [XNIO-1 task-17] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：9NN8
+2021-12-13 09:25:40.787 [XNIO-1 task-27] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：LGVK
+2021-12-13 09:25:59.567 [XNIO-1 task-28] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：DMSW
+2021-12-13 09:26:24.832 [XNIO-1 task-29] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：T4N9
+2021-12-13 09:26:27.196 [XNIO-1 task-30] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：CN2A
+2021-12-13 09:26:49.449 [XNIO-1 task-31] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：ANGB
+2021-12-13 09:26:52.708 [XNIO-1 task-32] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：5AGG
+2021-12-13 09:27:06.729 [XNIO-1 task-36] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：UKAY
+2021-12-13 09:27:17.220 [XNIO-1 task-37] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：RKN4
+2021-12-13 09:27:20.098 [XNIO-1 task-38] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：TYP8
+2021-12-13 09:27:23.010 [XNIO-1 task-39] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：EDB9
+2021-12-13 09:28:13.439 [XNIO-1 task-40] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：R6KY
+2021-12-13 09:28:25.059 [XNIO-1 task-43] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：989L
+2021-12-13 09:28:28.754 [XNIO-1 task-44] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：UB78
+2021-12-13 09:28:31.254 [XNIO-1 task-45] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：92TJ
+2021-12-13 09:28:31.814 [XNIO-1 task-46] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：SDRW
+2021-12-13 09:29:03.350 [XNIO-1 task-47] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：RRU3
+2021-12-13 09:29:05.100 [XNIO-1 task-48] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：FSU6
+2021-12-13 09:29:16.707 [XNIO-1 task-52] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：6LMM
+2021-12-13 09:29:30.910 [XNIO-1 task-56] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：44Q9
+2021-12-13 09:29:33.515 [XNIO-1 task-57] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：XA7Q
+2021-12-13 09:29:42.060 [XNIO-1 task-61] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：24MY
+2021-12-13 09:29:48.520 [XNIO-1 task-62] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：9GRM
+2021-12-13 09:29:53.663 [XNIO-1 task-63] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：T3AA
+2021-12-13 09:30:06.739 [XNIO-1 task-64] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：A638

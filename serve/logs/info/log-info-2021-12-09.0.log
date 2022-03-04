@@ -1,0 +1,832 @@
+2021-12-09 09:06:05.518 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 4108 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 09:06:05.525 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 09:06:06.569 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 09:06:06.576 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 09:06:06.680 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 0 Redis repository interfaces.
+2021-12-09 09:06:07.244 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$c6c2d2e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.259 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.265 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.448 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.451 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6ec63f8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.451 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.455 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 09:06:07.930 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 09:06:07.959 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 09:06:07.960 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2364 ms
+2021-12-09 09:06:09.104 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 09:06:09.125 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 09:06:09.311 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 09:06:10.442 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 09:06:10.444 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 09:06:10.448 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 09:06:10.449 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 09:06:10.497 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5ca273c6-8f80-4097-8db8-4b15d9c87784
+
+2021-12-09 09:06:10.614 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12c78f36, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c4c7e51, org.springframework.security.web.header.HeaderWriterFilter@5a8656a2, org.springframework.security.web.authentication.logout.LogoutFilter@cb1c58c, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@1894fa9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7891cf3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40cb95c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bdb4d69, org.springframework.security.web.session.SessionManagementFilter@5614ae05, org.springframework.security.web.access.ExceptionTranslationFilter@1df32c09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38caad07]
+2021-12-09 09:06:11.292 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 09:06:11.315 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 09:06:11.315 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 09:06:11.317 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 09:06:11.318 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 09:06:11.319 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 09:06:11.320 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 09:06:11.320 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@450f0d89
+2021-12-09 09:06:11.355 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 09:06:11.357 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 09:06:11.386 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 09:06:11.401 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 09:06:11.417 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 09:06:11.524 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 09:06:11.526 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 6.676 seconds (JVM running for 7.28)
+2021-12-09 09:08:34.016 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 09:08:34.016 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 09:08:34.026 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-12-09 09:08:34.074 [XNIO-1 task-1] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：8SP9
+2021-12-09 09:08:34.528 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 09:08:34.530 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 09:18:19.336 [XNIO-1 task-32] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:19:12.857 [XNIO-1 task-37] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:19:31.751 [XNIO-1 task-38] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:20:38.372 [XNIO-1 task-41] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:23:54.498 [XNIO-1 task-46] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:23:57.473 [XNIO-1 task-47] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\22deb76a-b6a9-4d5e-8db6-ad170b8939d4.png (系统找不到指定的路径。)
+2021-12-09 09:25:26.223 [XNIO-1 task-54] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:25:29.066 [XNIO-1 task-55] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:25:32.040 [XNIO-1 task-56] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\22deb76a-b6a9-4d5e-8db6-ad170b8939d4.png (系统找不到指定的路径。)
+2021-12-09 09:25:39.866 [XNIO-1 task-57] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:25:43.819 [XNIO-1 task-58] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:25:45.736 [XNIO-1 task-59] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:27:17.651 [XNIO-1 task-64] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:27:46.995 [XNIO-1 task-67] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:27:49.778 [XNIO-1 task-68] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:28:52.781 [XNIO-1 task-69] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:34:15.893 [XNIO-1 task-72] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:34:18.760 [XNIO-1 task-73] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:34:20.625 [XNIO-1 task-74] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:34:24.297 [XNIO-1 task-75] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:38:27.498 [XNIO-1 task-78] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:38:31.047 [XNIO-1 task-79] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:39:20.353 [XNIO-1 task-80] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:39:28.017 [XNIO-1 task-84] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:39:31.918 [XNIO-1 task-85] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:39:53.869 [XNIO-1 task-88] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:40:20.197 [XNIO-1 task-89] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:43:17.428 [XNIO-1 task-94] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:43:29.205 [XNIO-1 task-95] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:46:09.591 [XNIO-1 task-98] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:46:12.303 [XNIO-1 task-99] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 09:46:15.039 [XNIO-1 task-100] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:47:59.386 [XNIO-1 task-103] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:48:41.827 [XNIO-1 task-106] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:48:45.323 [XNIO-1 task-107] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:48:55.258 [XNIO-1 task-110] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:49:14.713 [XNIO-1 task-111] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:49:46.387 [XNIO-1 task-114] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:49:54.445 [XNIO-1 task-115] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:52:36.053 [XNIO-1 task-120] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:54:52.470 [XNIO-1 task-121] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:54:57.522 [XNIO-1 task-124] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:55:04.146 [XNIO-1 task-125] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:55:12.343 [XNIO-1 task-126] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 09:55:14.452 [XNIO-1 task-127] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:13:13.308 [XNIO-1 task-38] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:13:15.679 [XNIO-1 task-39] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:13:18.130 [XNIO-1 task-40] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\22deb76a-b6a9-4d5e-8db6-ad170b8939d4.png (系统找不到指定的路径。)
+2021-12-09 10:14:39.396 [XNIO-1 task-47] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:14:41.416 [XNIO-1 task-48] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:16:12.337 [XNIO-1 task-55] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:16:19.087 [XNIO-1 task-59] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:16:28.032 [XNIO-1 task-63] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:16:32.586 [XNIO-1 task-64] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\22deb76a-b6a9-4d5e-8db6-ad170b8939d4.png (系统找不到指定的路径。)
+2021-12-09 10:17:34.914 [XNIO-1 task-77] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:20:30.794 [XNIO-1 task-88] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:36:21.481 [XNIO-1 task-45] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:36:24.756 [XNIO-1 task-47] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:36:53.429 [XNIO-1 task-50] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:38:04.726 [XNIO-1 task-60] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:46:43.070 [XNIO-1 task-76] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:55:57.305 [XNIO-1 task-95] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:56:01.555 [XNIO-1 task-96] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 10:56:15.771 [XNIO-1 task-101] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:58:57.747 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 14288 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 10:58:57.750 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 10:58:58.488 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 10:58:58.492 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 10:58:58.571 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 Redis repository interfaces.
+2021-12-09 10:58:59.039 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$5499d0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.049 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.055 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.180 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.182 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2bbb44da' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.183 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.186 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 10:58:59.564 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 10:58:59.585 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 10:58:59.585 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1766 ms
+2021-12-09 10:59:00.425 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 10:59:00.443 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 10:59:00.595 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 10:59:01.488 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 10:59:01.491 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 10:59:01.494 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 10:59:01.494 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 10:59:01.532 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8a937bbf-5db8-4af7-8f34-f4eeac0415b8
+
+2021-12-09 10:59:01.620 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fc5d397, org.springframework.security.web.context.SecurityContextPersistenceFilter@25765a49, org.springframework.security.web.header.HeaderWriterFilter@2a21cbe7, org.springframework.security.web.authentication.logout.LogoutFilter@53c40ed6, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@7c4b5ceb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15d0b458, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fd97fd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25c8c71e, org.springframework.security.web.session.SessionManagementFilter@4fbc516f, org.springframework.security.web.access.ExceptionTranslationFilter@77e6053, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e9d721]
+2021-12-09 10:59:02.132 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 10:59:02.145 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 10:59:02.146 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 10:59:02.146 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 10:59:02.148 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 10:59:02.148 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 10:59:02.148 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 10:59:02.148 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@dcdb883
+2021-12-09 10:59:02.175 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 10:59:02.175 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 10:59:02.193 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 10:59:02.203 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 10:59:02.215 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 10:59:02.294 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 10:59:02.296 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.043 seconds (JVM running for 5.481)
+2021-12-09 10:59:25.345 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 10:59:25.347 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 10:59:25.364 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2021-12-09 10:59:25.562 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 10:59:25.564 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 10:59:29.557 [XNIO-1 task-3] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:59:37.888 [XNIO-1 task-4] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 10:59:40.024 [XNIO-1 task-5] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 11:22:42.585 [XNIO-1 task-61] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 11:37:00.621 [XNIO-1 task-102] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 11:42:07.191 [XNIO-1 task-126] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 11:47:56.600 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 14552 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 11:47:56.603 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 11:47:57.367 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 11:47:57.371 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 11:47:57.457 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 0 Redis repository interfaces.
+2021-12-09 11:47:57.917 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$c14f1d07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:57.929 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:57.934 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:58.061 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:58.062 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6fcd31c3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:58.063 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:58.066 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 11:47:58.448 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 11:47:58.470 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 11:47:58.471 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1798 ms
+2021-12-09 11:47:59.322 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 11:47:59.344 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 11:47:59.498 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 11:48:00.743 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 11:48:00.745 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 11:48:00.752 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 11:48:00.753 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 11:48:00.804 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 39651761-e84f-4c4a-8054-e0d41e393911
+
+2021-12-09 11:48:00.913 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22bfd4b, org.springframework.security.web.context.SecurityContextPersistenceFilter@77f529a6, org.springframework.security.web.header.HeaderWriterFilter@2d3bb944, org.springframework.security.web.authentication.logout.LogoutFilter@215a329c, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@33bdd01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6516181f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4258106, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79e16dd9, org.springframework.security.web.session.SessionManagementFilter@6dbeaef8, org.springframework.security.web.access.ExceptionTranslationFilter@78a165db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@391e85df]
+2021-12-09 11:48:01.444 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 11:48:01.459 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 11:48:01.459 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 11:48:01.460 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 11:48:01.461 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 11:48:01.461 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 11:48:01.461 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 11:48:01.461 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3e0327dd
+2021-12-09 11:48:01.490 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 11:48:01.490 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 11:48:01.508 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 11:48:01.517 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 11:48:01.529 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 11:48:01.615 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 11:48:01.617 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.506 seconds (JVM running for 5.941)
+2021-12-09 11:48:14.968 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 11:48:14.968 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 11:48:14.985 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2021-12-09 11:48:15.162 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 11:48:15.164 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 11:49:54.768 [XNIO-1 task-21] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\8e1dcfda-51b6-4d2e-bd5e-7f6d7162ab7c.png (系统找不到指定的路径。)
+2021-12-09 13:58:42.253 [XNIO-1 task-1] ERROR com.iotinall.framework.util.FileUtil - 文件生成失败：tmpfile\6d757e76-71fc-464c-b0e1-f4ea0e526a1b.jpg (系统找不到指定的路径。)
+2021-12-09 14:06:45.815 [XNIO-1 task-13] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：U6JE
+2021-12-09 14:51:40.605 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 10036 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 14:51:40.608 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 14:51:41.469 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 14:51:41.475 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 14:51:41.568 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-12-09 14:51:42.039 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$612e5ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.051 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.056 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.175 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.176 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7a2ab862' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.177 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.181 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:51:42.585 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 14:51:42.608 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 14:51:42.608 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1953 ms
+2021-12-09 14:51:43.639 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 14:51:43.665 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 14:51:43.839 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 14:51:44.955 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 14:51:44.956 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 14:51:44.960 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 14:51:44.960 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 14:51:45.003 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 25aed7ce-23d7-4a3d-82a6-2d017f6fbf92
+
+2021-12-09 14:51:45.086 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78a165db, org.springframework.security.web.context.SecurityContextPersistenceFilter@af04f09, org.springframework.security.web.header.HeaderWriterFilter@3abadb65, org.springframework.security.web.authentication.logout.LogoutFilter@3c116f26, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@1a2773a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78e97d4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1293f8d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4eb48298, org.springframework.security.web.session.SessionManagementFilter@46a97805, org.springframework.security.web.access.ExceptionTranslationFilter@1ed52f44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54970127]
+2021-12-09 14:51:45.648 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 14:51:45.661 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 14:51:45.661 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 14:51:45.662 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 14:51:45.663 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 14:51:45.663 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 14:51:45.663 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 14:51:45.663 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4a86be01
+2021-12-09 14:51:45.692 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 14:51:45.692 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 14:51:45.713 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 14:51:45.725 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 14:51:45.740 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 14:51:45.824 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 14:51:45.826 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.738 seconds (JVM running for 6.197)
+2021-12-09 14:51:52.670 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 14:51:52.673 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 14:51:52.701 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2021-12-09 14:51:52.863 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 14:51:52.865 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 14:53:19.896 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 11248 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 14:53:19.921 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 14:53:20.624 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 14:53:20.627 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 14:53:20.709 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
+2021-12-09 14:53:21.153 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$c867e2bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.166 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.171 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.294 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.295 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@71179b6f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.296 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.299 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 14:53:21.681 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 14:53:21.703 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 14:53:21.704 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1735 ms
+2021-12-09 14:53:22.516 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 14:53:22.536 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 14:53:22.687 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 14:53:23.563 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 14:53:23.564 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 14:53:23.567 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 14:53:23.568 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 14:53:23.607 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f12aaf46-8c06-49f1-8ddd-95e3008091b5
+
+2021-12-09 14:53:23.690 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bcd9ed6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7dc92a06, org.springframework.security.web.header.HeaderWriterFilter@8afce3, org.springframework.security.web.authentication.logout.LogoutFilter@3f40568e, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@59d6642a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52bb3dcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3be50b2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ffa0f38, org.springframework.security.web.session.SessionManagementFilter@675230cd, org.springframework.security.web.access.ExceptionTranslationFilter@30333941, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@350e3fb4]
+2021-12-09 14:53:24.176 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 14:53:24.189 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 14:53:24.189 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 14:53:24.190 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 14:53:24.192 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 14:53:24.192 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 14:53:24.192 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 14:53:24.192 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@105fe81e
+2021-12-09 14:53:24.226 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 14:53:24.226 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 14:53:24.243 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 14:53:24.253 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 14:53:24.263 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 14:53:24.343 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 14:53:24.345 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 4.93 seconds (JVM running for 5.361)
+2021-12-09 14:53:51.226 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 14:53:51.227 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 14:53:51.237 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-12-09 14:53:51.355 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 14:53:51.357 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 14:54:11.164 [XNIO-1 task-7] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：8FYS
+2021-12-09 14:54:29.084 [XNIO-1 task-10] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：PD4T
+2021-12-09 14:54:40.989 [XNIO-1 task-13] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：TCVH
+2021-12-09 14:54:42.228 [XNIO-1 task-14] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：6D83
+2021-12-09 14:54:46.707 [XNIO-1 task-17] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：47WV
+2021-12-09 14:55:01.577 [XNIO-1 task-20] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：XWNF
+2021-12-09 15:01:34.871 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 15892 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 15:01:34.897 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 15:01:35.840 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 15:01:35.844 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 15:01:35.957 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 0 Redis repository interfaces.
+2021-12-09 15:01:36.436 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$f60643d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.449 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.454 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.581 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.583 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49ca94a9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.584 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:36.588 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:01:37.039 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 15:01:37.063 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 15:01:37.063 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2118 ms
+2021-12-09 15:01:37.980 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 15:01:37.998 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 15:01:38.139 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 15:01:39.001 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 15:01:39.002 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 15:01:39.006 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 15:01:39.006 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 15:01:39.043 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4e8b0326-a7e8-4130-ba9d-51ee8a8b3f15
+
+2021-12-09 15:01:39.123 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@533d7c61, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b423f90, org.springframework.security.web.header.HeaderWriterFilter@6032622, org.springframework.security.web.authentication.logout.LogoutFilter@7944c323, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@5c82031b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c7673ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cb1c58c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53c40ed6, org.springframework.security.web.session.SessionManagementFilter@4258106, org.springframework.security.web.access.ExceptionTranslationFilter@37ade216, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fa9247b]
+2021-12-09 15:01:39.621 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 15:01:39.634 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 15:01:39.634 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 15:01:39.635 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 15:01:39.637 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 15:01:39.637 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 15:01:39.637 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 15:01:39.637 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@565c887e
+2021-12-09 15:01:39.662 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 15:01:39.662 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 15:01:39.679 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 15:01:39.687 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 15:01:39.697 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 15:01:39.767 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 15:01:39.769 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.417 seconds (JVM running for 5.889)
+2021-12-09 15:02:24.316 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 11508 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 15:02:24.341 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 15:02:25.038 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 15:02:25.041 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 15:02:25.123 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
+2021-12-09 15:02:25.576 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$24831bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.587 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.592 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.717 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.719 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@331ff3ac' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.720 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:25.722 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 15:02:26.094 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 15:02:26.116 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 15:02:26.117 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1730 ms
+2021-12-09 15:02:26.936 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 15:02:26.954 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 15:02:27.105 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 15:02:27.976 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 15:02:27.978 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 15:02:27.981 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 15:02:27.981 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 15:02:28.019 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f1e0b0e0-1c86-4791-a700-c8e6af155f50
+
+2021-12-09 15:02:28.101 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ba9780, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f40568e, org.springframework.security.web.header.HeaderWriterFilter@484876a1, org.springframework.security.web.authentication.logout.LogoutFilter@73d8c8d7, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@4c5406b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37b470df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fef4f96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63636de0, org.springframework.security.web.session.SessionManagementFilter@60ef30b1, org.springframework.security.web.access.ExceptionTranslationFilter@68550d86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52f7fa65]
+2021-12-09 15:02:28.576 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 15:02:28.589 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 15:02:28.590 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 15:02:28.590 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 15:02:28.592 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 15:02:28.592 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 15:02:28.592 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 15:02:28.592 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@35c95869
+2021-12-09 15:02:28.620 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 15:02:28.620 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 15:02:28.639 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 15:02:28.650 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 15:02:28.660 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 15:02:28.742 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 15:02:28.745 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 4.91 seconds (JVM running for 5.346)
+2021-12-09 15:07:35.200 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 15:07:35.201 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 15:07:35.210 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-12-09 15:07:35.316 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 15:07:35.318 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 15:07:43.437 [XNIO-1 task-4] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：6WGY
+2021-12-09 15:09:07.253 [XNIO-1 task-7] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：7SRD
+2021-12-09 15:09:11.562 [XNIO-1 task-8] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：XPG9
+2021-12-09 15:16:59.140 [XNIO-1 task-48] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：YTCD
+2021-12-09 15:20:47.496 [XNIO-1 task-51] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：HCAB
+2021-12-09 15:21:28.483 [XNIO-1 task-53] ERROR com.iotinall.framework.handler.RestControllerExceptionHandler - invocation http://192.168.101.123:6565/user/logout error
+java.lang.ClassCastException: java.lang.String cannot be cast to com.iotinall.framework.modules.security.module.SecurityUserDetails
+	at com.iotinall.framework.modules.security.util.SecurityUtil.getCurrUserModel(SecurityUtil.java:47)
+	at com.iotinall.framework.modules.admin.service.UserService.loginOut(UserService.java:111)
+	at com.iotinall.framework.modules.admin.service.UserService$$FastClassBySpringCGLIB$$33f3d148.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.iotinall.framework.modules.admin.service.UserService$$EnhancerBySpringCGLIB$$38208cbd.loginOut(<generated>)
+	at com.iotinall.framework.modules.admin.controller.UserController.loginOut(UserController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:503)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter.doFilterInternal(AuthorizationTokenFilter.java:54)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-12-09 15:25:47.456 [XNIO-1 task-54] INFO  com.iotinall.framework.util.ValidateCodeUtil - 随机字符：MXXU
+2021-12-09 17:20:39.775 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 7644 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 17:20:39.778 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 17:20:40.531 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 17:20:40.535 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 17:20:40.615 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64ms. Found 0 Redis repository interfaces.
+2021-12-09 17:20:41.053 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$fbf3639f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.065 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.070 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.199 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.201 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@217c23ce' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.202 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.207 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:20:41.627 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 17:20:41.649 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 17:20:41.649 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1802 ms
+2021-12-09 17:20:42.453 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 17:20:42.472 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 17:20:42.622 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 17:20:43.508 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:20:43.510 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 17:20:43.514 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:20:43.514 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 17:20:43.552 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0343e491-20ed-4405-bcdf-9f1b62eeb391
+
+2021-12-09 17:20:43.636 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4790b897, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bdb4d69, org.springframework.security.web.header.HeaderWriterFilter@85c3522, org.springframework.security.web.authentication.logout.LogoutFilter@278c998, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@4bcdd11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@361fa478, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6247c08c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cba890e, org.springframework.security.web.session.SessionManagementFilter@6fd97fd1, org.springframework.security.web.access.ExceptionTranslationFilter@25765a49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fc5d397]
+2021-12-09 17:20:44.140 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 17:20:44.152 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 17:20:44.153 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 17:20:44.153 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 17:20:44.155 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 17:20:44.155 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 17:20:44.155 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 17:20:44.155 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6e489bb8
+2021-12-09 17:20:44.181 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 17:20:44.181 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 17:20:44.198 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 17:20:44.207 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 17:20:44.218 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 17:20:44.299 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 17:20:44.301 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.009 seconds (JVM running for 5.44)
+2021-12-09 17:21:21.325 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 17:21:21.326 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 17:21:21.344 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2021-12-09 17:21:21.542 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 17:21:21.552 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 17:25:59.762 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 4100 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 17:25:59.765 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 17:26:00.484 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 17:26:00.487 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 17:26:00.567 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 0 Redis repository interfaces.
+2021-12-09 17:26:01.016 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$92bbd6c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.028 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.033 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.158 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.159 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7b1e5e55' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.160 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.164 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:26:01.541 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 17:26:01.563 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 17:26:01.563 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1726 ms
+2021-12-09 17:26:02.387 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 17:26:02.406 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 17:26:02.556 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 17:26:03.416 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:26:03.417 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 17:26:03.420 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:26:03.421 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 17:26:03.458 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5b3b32cf-8884-4e2e-9cd2-e0737b5bde72
+
+2021-12-09 17:26:03.542 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a2dbcfc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ec616d6, org.springframework.security.web.header.HeaderWriterFilter@9499643, org.springframework.security.web.authentication.logout.LogoutFilter@5e2b512b, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@1144a02b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d5a72cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1df32c09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b8d6c66, org.springframework.security.web.session.SessionManagementFilter@7a34505a, org.springframework.security.web.access.ExceptionTranslationFilter@27055a2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@583030bd]
+2021-12-09 17:26:04.019 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 17:26:04.031 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 17:26:04.031 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 17:26:04.032 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 17:26:04.033 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 17:26:04.033 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 17:26:04.033 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 17:26:04.033 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@8636cf4
+2021-12-09 17:26:04.062 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 17:26:04.062 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 17:26:04.079 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 17:26:04.092 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 17:26:04.111 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 17:26:04.196 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 17:26:04.199 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 4.911 seconds (JVM running for 5.338)
+2021-12-09 17:26:25.326 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 17:26:25.328 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 17:26:25.340 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-12-09 17:26:25.548 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 17:26:25.551 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-12-09 17:34:18.504 [XNIO-1 task-40] ERROR com.iotinall.framework.handler.RestControllerExceptionHandler - invocation http://192.168.101.123:6565/sys_role/update_permissions error
+org.springframework.web.bind.MissingServletRequestParameterException: Required List parameter 'permissions' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:204)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter.doFilterInternal(AuthorizationTokenFilter.java:54)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-12-09 17:37:43.281 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Starting MybatisPlusFrameworkApplication on WINDOWS-GLCDS9G with PID 8100 (D:\project\project-architecture\framework\mybatisplus-framework\build\classes\java\main started by EDZ in D:\project\project-architecture\framework\mybatisplus-framework)
+2021-12-09 17:37:43.305 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - The following profiles are active: local
+2021-12-09 17:37:44.003 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-09 17:37:44.007 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-09 17:37:44.088 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 0 Redis repository interfaces.
+2021-12-09 17:37:44.534 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.iotinall.framework.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$129282c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.545 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.562 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.670 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.671 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1e7f19b4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.673 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:44.676 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-09 17:37:45.048 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-12-09 17:37:45.068 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-12-09 17:37:45.068 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1712 ms
+2021-12-09 17:37:45.897 [main] INFO  com.gitee.sunchenbin.mybatis.actable.manager.handler.StartUpHandlerImpl - databaseType=mysql，开始执行mysql的处理方法
+2021-12-09 17:37:45.923 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-09 17:37:46.112 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-09 17:37:47.048 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:37:47.050 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'featureExecutor'
+2021-12-09 17:37:47.054 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-12-09 17:37:47.054 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncExecutor'
+2021-12-09 17:37:47.090 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 64808683-eed5-4ce4-a338-b69ef1873a33
+
+2021-12-09 17:37:47.172 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69ac5752, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bb39285, org.springframework.security.web.header.HeaderWriterFilter@22f046b, org.springframework.security.web.authentication.logout.LogoutFilter@18be3205, com.iotinall.framework.modules.security.handler.AuthorizationTokenFilter@633ddc0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@102ecb61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@637d111d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1736273c, org.springframework.security.web.session.SessionManagementFilter@20723ee, org.springframework.security.web.access.ExceptionTranslationFilter@3ca3eba2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b278b17]
+2021-12-09 17:37:47.661 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-12-09 17:37:47.673 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-09 17:37:47.674 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-12-09 17:37:47.674 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-12-09 17:37:47.676 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-09 17:37:47.676 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-12-09 17:37:47.676 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-12-09 17:37:47.676 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1734b1a
+2021-12-09 17:37:47.706 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2021-12-09 17:37:47.706 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-12-09 17:37:47.723 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2021-12-09 17:37:47.732 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-12-09 17:37:47.746 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-12-09 17:37:47.835 [main] INFO  org.springframework.boot.web.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 6565 (http) with context path ''
+2021-12-09 17:37:47.837 [main] INFO  com.iotinall.framework.MybatisPlusFrameworkApplication - Started MybatisPlusFrameworkApplication in 5.039 seconds (JVM running for 5.464)
+2021-12-09 17:40:06.032 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 17:40:06.035 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-09 17:40:06.056 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2021-12-09 17:40:06.253 [XNIO-1 task-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-12-09 17:40:06.255 [XNIO-1 task-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library

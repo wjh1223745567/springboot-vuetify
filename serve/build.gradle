@@ -1,0 +1,47 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.2.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
+group 'org.iotinall'
+version '1.0-SNAPSHOT'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+    all*.exclude module: 'spring-boot-starter-tomcat'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //深度算法包
+    implementation group: 'org.deeplearning4j', name: 'deeplearning4j-core', version: '1.0.0-M1.1'
+    testImplementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-M1.1'
+    implementation group: 'org.nd4j', name: 'nd4j-native-platform', version: '1.0.0-M1.1'
+    implementation group: 'org.datavec', name: 'datavec-api', version: '1.0.0-M1.1'
+    implementation group: 'org.deeplearning4j', name: 'deeplearning4j-ui', version: '1.0.0-M1.1'
+
+    //图像处理
+    implementation group: 'org.openpnp', name: 'opencv', version: '3.4.2-2'
+
+    compile 'mysql:mysql-connector-java:8.0.16'
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.3.0'
+    implementation ('com.gitee.sunchenbin.mybatis.actable:mybatis-enhance-actable:1.5.0.RELEASE'){
+        exclude (group: 'com.baomidou', module: 'mybatis-plus-annotation')
+    }
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-undertow'
+    implementation 'org.springframework.boot:spring-boot-starter-quartz'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.5'
+    implementation 'com.alibaba:fastjson:1.2.75'
+    annotationProcessor 'org.projectlombok:lombok'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

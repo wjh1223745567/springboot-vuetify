@@ -1,0 +1,8 @@
+package com.iotinall.framework.modules.admin.dto.${entityKeyLower};
+
+import lombok.Data;
+
+@Data
+public class ${entityKey}Condition {
+
+}

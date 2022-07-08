@@ -4,3 +4,4 @@
 实体大写驼峰下划线 ${entityKeyUpperLine}
 列表返回值set到DTO ${itemSetToDto}
 保存时参数set到实体${reqSetToEntity}
+实体属性 ${entityProperty}

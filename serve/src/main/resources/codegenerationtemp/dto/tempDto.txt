@@ -1,0 +1,15 @@
+package com.iotinall.framework.modules.admin.dto.${entityKeyLower};
+
+import lombok.Data;
+import lombok.experimental.Accessors;
+
+@Data
+@Accessors(chain = true)
+public class ${entityKey}Dto {
+
+    ${entityProperty}
+
+}
+
+
+

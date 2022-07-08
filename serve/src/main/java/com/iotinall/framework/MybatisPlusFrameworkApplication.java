@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan({"com.gitee.sunchenbin.mybatis.actable.manager.*", "com.iotinall.framework"})
 public class MybatisPlusFrameworkApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(MybatisPlusFrameworkApplication.class, args);
     }
 }

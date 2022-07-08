@@ -1,0 +1,6 @@
+实体名称 ${entityKey}
+实体小写名称 ${entityKeyLower}
+实体小写驼峰下划线 ${entityKeyLowerLine}
+实体大写驼峰下划线 ${entityKeyUpperLine}
+列表返回值set到DTO ${itemSetToDto}
+保存时参数set到实体${reqSetToEntity}

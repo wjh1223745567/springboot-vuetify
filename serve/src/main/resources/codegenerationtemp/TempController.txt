@@ -1,0 +1,43 @@
+package com.iotinall.framework.modules.admin.controller;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.iotinall.framework.common.model.ResultDTO;
+import com.iotinall.framework.modules.admin.dto.${entityKeyLower}.*;
+import com.iotinall.framework.modules.admin.entity.${entityKey};
+import com.iotinall.framework.modules.admin.service.${entityKey}Service;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
+import javax.validation.Valid;
+import java.util.List;
+
+/**
+ *
+ */
+@RestController
+@RequestMapping(value = "${entityKeyLowerLine}")
+public class ${entityKey}Controller {
+
+    @Resource
+    private ${entityKey}Service service;
+
+    @GetMapping
+    @PreAuthorize("hasAnyRole('ADMIN', '${entityKeyUpperLine}_ALL')")
+    public ResultDTO<?> list(Page<${entityKey}> page, ${entityKey}Condition condition){
+        return ResultDTO.success(this.service.list(page, condition));
+    }
+
+    @PostMapping
+    @PreAuthorize("hasAnyRole('ADMIN', '${entityKeyUpperLine}_ALL')")
+    public ResultDTO<?> add(@Valid ${entityKey}Req req){
+        return ResultDTO.success(this.service.saveData(req));
+    }
+
+    @DeleteMapping
+    @PreAuthorize("hasAnyRole('ADMIN', '${entityKeyUpperLine}_ALL')")
+    public ResultDTO<?> deleted(@RequestParam(value = "ids[]") List<Long> ids){
+        this.service.deleted(ids);
+        return ResultDTO.success();
+    }
+}

@@ -1,0 +1,63 @@
+package com.iotinall.framework.modules.admin.service;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.iotinall.framework.common.exception.BizException;
+import com.iotinall.framework.modules.admin.dto.${entityKeyLower}.*;
+import com.iotinall.framework.modules.admin.entity.${entityKey};
+import com.iotinall.framework.modules.admin.mapper.${entityKey}Mapper;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.CollectionUtils;
+
+import javax.annotation.Resource;
+import java.util.*;
+import java.util.stream.Collectors;
+
+@Slf4j
+@Service
+@Transactional(rollbackFor = Exception.class)
+public class ${entityKey}Service extends ServiceImpl<${entityKey}Mapper, ${entityKey}> {
+
+    @Resource
+    private ${entityKey}Mapper mapper;
+
+    /**
+     * 列表
+     * @param condition
+     * @return
+     */
+    public IPage<${entityKey}Dto> list(Page<${entityKey}> page, ${entityKey}Condition condition) {
+        QueryWrapper<${entityKey}> queryWrapper = new QueryWrapper<>();
+        //queryWrapper.lambda().like(StringUtils.isNotBlank(condition.getSearch()), SysRole::getName, condition.getSearch());
+        IPage<${entityKey}> iPage = this.mapper.selectPage(page, queryWrapper);
+        return iPage.convert(item -> {
+            ${entityKey}Dto dto = new ${entityKey}Dto()
+                    ${itemSetToDto};
+            return dto;
+        });
+    }
+   /**
+    * 添加和保存
+    */
+    public Long saveData(${entityKey}Req req){
+        ${entityKey} entity = new ${entityKey}()
+                ${reqSetToEntity};
+        super.saveOrUpdate(entity);
+        return entity.getId();
+    }
+
+   /**
+    * 删除
+    */
+    public void deleted(Collection<Long> ids){
+        if(CollectionUtils.isEmpty(ids)){
+            throw new BizException("", "请选择要删除的数据");
+        }
+        this.mapper.deleteBatchIds(ids);
+    }
+}

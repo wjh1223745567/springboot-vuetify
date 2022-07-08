@@ -1,0 +1,9 @@
+package com.iotinall.framework.modules.admin.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.iotinall.framework.modules.admin.entity.${entityKey};
+
+public interface ${entityKey}Mapper extends BaseMapper<${entityKey}> {
+
+
+}
